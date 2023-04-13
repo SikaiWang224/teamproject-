@@ -20,3 +20,17 @@ According to the hypotheses above, we believe that every time when the Federal R
 
 
 ## Necessary Data
+
+### Final Dataset
+#### Federal Reserve announcements:
+Recent 10 most viewed and important Federal Reserve announcements (https://www.federalreserve.gov/newsevents.htm) 
+#### Sentiment standard:
+We will create one that evolved from what we have used during the mid-term project.
+#### Return:
+According to the Federal Reserve announcements date, we will select the stock price for S&P 500 between one week before the announcement date and one week after the announcement date. And then we take the returns for each S&P 500. (https://finance.yahoo.com/)
+#### Target variable
+Our **Target variable** are sentiment scores for each stock and find out the correlation between return and this sentiment score.
+
+### 
+
+
