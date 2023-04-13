@@ -1,5 +1,5 @@
 # Research Proposal: Sentiment Analysis of Federal Reserve Announcements and its Impact on the S&P 500 and Sector ETFs
-By _Sz-Je Wang, Sikai Wang, and Xilong Liu
+By _Sz-Je Wang, Sikai Wang, and Xilong Liu_
 
 
 ## Research Question: 
