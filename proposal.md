@@ -18,19 +18,40 @@ How do Federal Reserve announcements influence the stock market according to **N
 ### Predictions:
 According to the hypotheses above, we believe that every time when the Federal Reserve announcements related to a piece of good news are released, the stock of companies within the S&P 500 will show a good trend and vice versa. Whether it has a piece of good news is determined by the sentiment score that we measure.
 
+### Data Transformation:
+#### High-level Overview:
+- Perform sentiment analysis on the Federal Reserve announcements using natural language processing to obtain sentiment scores.
+- Merge the sentiment scores with the corresponding stock and ETF returns.
+- Analyze the correlation between the sentiment scores and stock market movements.
 
 ## Necessary Data
-
 ### Final Dataset
+- Observation: Federal Reserve announcements, S&P 500 stocks, and sector ETFs.
+- Sample Period: Recent 10 most significant Federal Reserve announcements.
+- Necessary Variables: Sentiment scores, stock prices, and returns.
 #### Federal Reserve announcements:
 Recent 10 most viewed and important Federal Reserve announcements (https://www.federalreserve.gov/newsevents.htm) 
 #### Sentiment standard:
 We will create one that evolved from what we have used during the mid-term project.
+#### Selected Sector ETFs:
+- Financials: Financial Select Sector SPDR Fund (XLF)
+- Technology: Technology Select Sector SPDR Fund (XLK)
+- Healthcare: Health Care Select Sector SPDR Fund (XLV)
+- Consumer Discretionary: Consumer Discretionary Select Sector SPDR Fund (XLY)
+- Consumer Staples: Consumer Staples Select Sector SPDR Fund (XLP)
+- Industrials: Industrial Select Sector SPDR Fund (XLI)
+- Energy: Energy Select Sector SPDR Fund (XLE)
+- Materials: Materials Select Sector SPDR Fund (XLB)
+- Utilities: Utilities Select Sector SPDR Fund (XLU)
+- Real Estate: Real Estate Select Sector SPDR Fund (XLRE)
 #### Return:
-According to the Federal Reserve announcements date, we will select the stock price for S&P 500 between one week before the announcement date and one week after the announcement date. And then we take the returns for each S&P 500. (https://finance.yahoo.com/)
+We will select the stock prices for the S&P 500 and sector ETFs between one week before and one week after the announcement date for each Federal Reserve announcement. Then, we will calculate the returns for each stock and ETF. The ETF returns can be accessed through financial data providers such as Yahoo Finance (https://finance.yahoo.com/).
+#### Data Storage:
+##### Raw Inputs:
+- Federal Reserve announcements: stored in a folder named "announcements"
+- Stock prices and ETF returns: stored in a folder named "stock_data"
+- Final Dataset: stored in a folder named "final_data"
 #### Target variable
-Our **Target variable** are sentiment scores for each stock and find out the correlation between return and this sentiment score.
-
-### 
+Our **Target Variable** is the sentiment score for each announcement. We aim to find the correlation between these sentiment scores and the returns on the S&P 500 stocks and selected sector ETFs.
 
 
