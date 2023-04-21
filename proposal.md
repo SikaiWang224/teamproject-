@@ -72,3 +72,43 @@ Our target variables are the excess returns for the S&P 500 stocks and selected 
 - A folder for each sector's related returns and ETF
 
 ![377 final project](https://user-images.githubusercontent.com/112531955/233749032-128a53bc-25c4-4261-9033-c1190e320473.jpg)
+
+### Website Content
+#### Home:
+- Introduction to the project
+- Brief overview of research questions and hypotheses
+- Visualization of project flowchart
+
+#### About:
+- Team members and their roles
+- Project background and motivation
+- Goals and objectives
+
+#### Methodology:
+- Detailed explanation of data transformation steps
+- Description of sentiment analysis using Natural Language Processing
+- Explanation of correlation analysis between sentiment scores and stock return
+
+#### Data:
+- Overview of dataset structure and variables
+- List of selected sector ETFs
+- Description of data sources and storage
+
+#### Results:
+- Presentation of key findings and insights
+- Visualizations of correlations between sentiment scores and stock return
+- Discussion of market predictability based on announcement sentiment
+
+#### Conclusion:
+- Summary of main findings
+- Implications and potential applications
+
+#### Resources:
+- Links to related files (Jupyter notebooks, sentiment standard files, etc.)
+- Relevant research papers and articles
+- External resources (Federal Reserve announcements, Yahoo Finance, etc.)
+
+#### Contact:
+- Team member contact information
+- Collaboration and feedback opportunities
+- Social media profiles and professional links
