@@ -73,7 +73,11 @@ Our target variables are the excess returns for the S&P 500 stocks and selected 
 
 ![377 final project](https://user-images.githubusercontent.com/112531955/233749032-128a53bc-25c4-4261-9033-c1190e320473.jpg)
 ### Explaination
-- The upper part 
+- The upper part has one sample graph we will have in the first part of our website. We can see the trend from the graph like how the announcement will have impact on the market return and EFT return.
+- The defination part explains how excess ret is generated. This formula help us calculated the cumulative returns.
+- The regression part notifies us that we need to apply query for different sectors.
+- Also, there is a sample dataset that we will be using. It has the important variables like announcement id to distinguish companies. This also have sendiment score and returns merged. We can then find the correlation between these varibales.
+- For forcasting the future, we will be able to use these relationship to know what will happen in the future market when the new federal announcement comes. 
 
 ### Website Content
 #### Home:
