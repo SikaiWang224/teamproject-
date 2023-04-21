@@ -55,3 +55,12 @@ We will select the stock prices for the S&P 500 and sector ETFs between one week
 Our **Target Variable** is the sentiment score for each announcement. We aim to find the correlation between these sentiment scores and the returns on the S&P 500 stocks and selected sector ETFs.
 
 
+### Related Files 
+- run ipynb through the order I provide below
+- download_text.ipynb (this will download the federal announcement)
+- building_sample.ipynb (loading the excel which includes the returns for each sector)
+- regression.ipyhb (this wil analyzing whether the federal annuocement will have effect on market returns)
+- report.ipyhb (this will summarize what is going in this process and give some discussion)
+- several setiment files (these files are the sentiment standard we will use when analyzing the federal announcement)
+- a folder for each sector's related returns and ETF
+
