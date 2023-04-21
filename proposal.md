@@ -51,6 +51,14 @@ We will select the stock prices for the S&P 500 and sector ETFs between one week
 - Federal Reserve announcements: stored in a folder named "announcements"
 - Stock prices and ETF returns: stored in a folder named "stock_data"
 - Final Dataset: stored in a folder named "final_data"
+
+#### Variable
+- The nearest fed announcement (event id variable)
+- Excess return (return minus market return)
+- Cumulative excess return for that asset during that event's time window (from t-10 up to t+10)
+- Sentiment of the corresponding fed announcement
+- Variable(s) that categorize the sentiment variable into smaller bins (e.g. High/Low, High/Middle/Low)
+
 #### Target variable
 Our target variables are the excess returns for the S&P 500 stocks and selected sector ETFs. We aim to find the correlation between these excess returns and the sentiment scores derived from the Federal Reserve announcements.
 
@@ -62,4 +70,3 @@ Our target variables are the excess returns for the S&P 500 stocks and selected 
 - report.ipyhb (this will summarize what is going in this process and give some discussion)
 - several setiment files (these files are the sentiment standard we will use when analyzing the federal announcement)
 - a folder for each sector's related returns and ETF
-
