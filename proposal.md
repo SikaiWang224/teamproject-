@@ -52,8 +52,7 @@ We will select the stock prices for the S&P 500 and sector ETFs between one week
 - Stock prices and ETF returns: stored in a folder named "stock_data"
 - Final Dataset: stored in a folder named "final_data"
 #### Target variable
-Our **Target Variable** is the sentiment score for each announcement. We aim to find the correlation between these sentiment scores and the returns on the S&P 500 stocks and selected sector ETFs.
-
+Our target variables are the excess returns for the S&P 500 stocks and selected sector ETFs. We aim to find the correlation between these excess returns and the sentiment scores derived from the Federal Reserve announcements.
 
 ### Related Files 
 - run ipynb through the order I provide below
