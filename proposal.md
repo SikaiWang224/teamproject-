@@ -70,3 +70,5 @@ Our target variables are the excess returns for the S&P 500 stocks and selected 
 - Report.ipyhb (this will summarize what is going in this process and give some discussion)
 - Several setiment files (these files are the sentiment standard we will use when analyzing the federal announcement)
 - A folder for each sector's related returns and ETF
+
+![377 final project](https://user-images.githubusercontent.com/112531955/233749032-128a53bc-25c4-4261-9033-c1190e320473.jpg)
