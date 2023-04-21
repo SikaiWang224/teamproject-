@@ -108,6 +108,7 @@ Our target variables are the excess returns for the S&P 500 stocks and selected 
 #### Conclusion:
 - Summary of main findings
 - Implications and potential applications
+- Forecast the future market when new federal announcemet comes. 
 
 #### Resources:
 - Links to related files (Jupyter notebooks, sentiment standard files, etc.)
