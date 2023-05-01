@@ -51,6 +51,7 @@ We will create one that evolved from what we have used during the mid-term proje
 - Materials: Materials Select Sector SPDR Fund (XLB)
 - Utilities: Utilities Select Sector SPDR Fund (XLU)
 - Real Estate: Real Estate Select Sector SPDR Fund (XLRE)
+- Communication Services: Communication Services Select Sector SPDR Fund (XLC)
 #### Return:
 We will select the stock prices for the S&P 500 and sector ETFs between one week before and one week after the announcement date for each Federal Reserve announcement. For example, if we have an announcement date at 3.10, we will be likely to collect the market price between 3.3 and 3.17 day by day. Then, we will calculate the returns for each stock and ETF. The ETF returns can be accessed through financial data providers such as Yahoo Finance (https://finance.yahoo.com/).
 #### Data Storage:
