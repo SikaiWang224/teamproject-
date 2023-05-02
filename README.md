@@ -37,7 +37,7 @@ According to the hypotheses above, we believe that every time when the Federal R
 
 Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
 
-<img src="pics/Method.jpg" alt="julio" width="300"/>
+<img src="pics/Method.jpg" alt="julio" width="500"/>
 
 ```python
 window = 10
@@ -64,7 +64,7 @@ for event_date in event_dates:
     corr_matrix = merged_df[['Return_mean', 'Return_Standard_Deviation', 'SentimentScore']].corr()
     print(corr_matrix)
 ```
-
+<img src="pics/Method.jpg" alt="julio" width="500"/>
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
 ## Section <a name="section2"></a>
@@ -100,7 +100,7 @@ Blah blah
 
 ## About the team
 
-<img src="pics/IMG_1966.JPG" alt="julio" width="300"/>
+<img src="pics/IMG_1967.JPG" alt="julio" width="500"/>
 <br>
 Sikai is a student in Lehigh University majoring in Finance and Business Analytics. I’ve always been fascinated by the world of finance and the role it plays in shaping our economy, which leads me to join IMG and participate in the Analyst Development Program.
 <br><br><br>
