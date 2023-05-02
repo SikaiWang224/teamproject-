@@ -78,10 +78,10 @@ Blah blah
 <br>
 Julio is a senior at Lehigh studying finance.
 <br><br><br>
-<img src="pics/IMG_1967.JPG.jpg" alt="don" width="300"/>
+<img src="pics/IMG_1967.JPG" alt="don" width="300"/>
 <br>
 Don is an assistant professor at Lehigh.
-<img src="IMG_0457.JPG" alt="don" width="300"/>
+<img src="pics/IMG_0457.JPG" alt="don" width="300"/>
 
 ## More 
 
