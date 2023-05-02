@@ -8,34 +8,35 @@ Maybe you want a different website them for the project? Consider `minimal-mista
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
-3. [Section 2](#section2)
-    1. [Subsection](#subsec2-1)
-    2. [Subsection](#subsec2-2)
-4. [Analysis Section](#section3)
-5. [Summary](#summary)
+3. [ETF Tickers](#etftickers)
+    1. [Sentiment Scores](#sentimentscores)
+4. [Analysis Section](#analysis)
+5. [Finding](#finding)
+6. [Summary](#summary)
 
 ## Introduction  <a name="introduction"></a>
 The main goal of this project is to see how Federal Reserve announcements impact the stock market in recent 2 years.
 Research Question:
 How do Federal Reserve announcements influence the stock market according to Natural language processing, particularly the ETFs across various sectors?
 
-Specific research question:
-What is the overall sentiment and intensity in the each announcements?
-How do these sentiment scores correlate with subsequent stock market movements for the sector ETFs?
-Can we predict stock market reactions based on the sentiment derived from announcements?
+### Specific research question:
+- What is the overall sentiment and intensity in the each announcements?
+- How do these sentiment scores correlate with subsequent stock market movements for the sector ETFs?
+- Can we predict stock market reactions based on the sentiment derived from announcements?
 
-Hypotheses:
-Positive sentiment score in announcements leads to a positive stock market reaction.
-Negative sentiment score in announcements leads to a negative stock market reaction.
+### Our Hypotheses:
+- Positive sentiment score in announcements leads to a positive stock market reaction.
+- Negative sentiment score in announcements leads to a negative stock market reaction.
 
-Predictions:
+### Predictions:
 According to the hypotheses above, we believe that every time when the Federal Reserve announcements related to a piece of good news are released, the stock of companies will show a good trend and vice versa. Whether it has a piece of good news is determined by the sentiment score that we measure.
 
   
 
 ## Methodology <a name="meth"></a>
 
-Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
+In this project, we perform sentiment analysis on the Federal Reserve announcements using natural language processing to obtain sentiment scores. We then merge these sentiment scores with the corresponding stock and ETF returns to analyze the correlation between the sentiment scores and stock market movements. This analysis allows us to gain insights into the influence of Federal Reserve announcements on the stock market, particularly the ETFs across various sectors.
+[More details are provided in the Appendix](page2).
 
 <img src="pics/Method.jpg" alt="julio" width="500"/>
 
@@ -67,33 +68,52 @@ for event_date in event_dates:
 <img src="pics/IMG_1968.JPG" alt="julio" width="500"/>
 
 
-## ETF tickers <a name="ETFtickers"></a>
+## ETF Tickers <a name="etftickers"></a>
+![2553976d6e16af444043f1b1dee7686a](https://user-images.githubusercontent.com/112531955/235804538-59790938-4f18-4d12-b5a7-7c12b0f7cfbc.png)
+
+- Financials: Financial Select Sector SPDR Fund (XLF)
+- Technology: Technology Select Sector SPDR Fund (XLK)
+- Healthcare: Health Care Select Sector SPDR Fund (XLV)
+- Consumer Discretionary: Consumer Discretionary Select Sector SPDR Fund (XLY)
+- Consumer Staples: Consumer Staples Select Sector SPDR Fund (XLP)
+- Industrials: Industrial Select Sector SPDR Fund (XLI)
+- Energy: Energy Select Sector SPDR Fund (XLE)
+- Materials: Materials Select Sector SPDR Fund (XLB)
+- Utilities: Utilities Select Sector SPDR Fund (XLU)
+- Real Estate: Real Estate Select Sector SPDR Fund (XLRE)
+- Communication Services: Communication Services Select Sector SPDR Fund (XLC)
 <img src="pics/Tickers.jpg" alt="julio" width="500"/>
 
 ### Sentiment scores <a name="sentimentscores"></a>
 By analyzing the sentiment score analysis of news articles, social media posts, and other textual data, traders and investors can identify emerging trends, gauge market sentiment, and make more informed investment decisions. Sentiment score analysis is one of the many tools used in fundamental analysis, which involves analyzing the underlying financial and economic factors that affect the stock market.
 
-<img src="pics/setscore.jpg" alt="julio" width="500"/>
 <img src="pics/set1.jpg" alt="julio" width="500"/>
-<img src="pics/set2.jpg" alt="julio" width="500"/>
+<img src="pics/setscore.jpg" alt="julio" width="500"/>
 
-## Analysis  <a name="Analysis"></a>
+## Analysis  <a name="analysis"></a>
+Our analysis involves examining the correlation between the sentiment scores derived from the Federal Reserve announcements and the subsequent stock market movements for the sector ETFs. By identifying the trends in these correlations, we can better understand the impact of Federal Reserve announcements on the stock market and make more informed predictions about stock market reactions based on the sentiment derived from announcements.
+
 <img src="pics/analysis.jpg" alt="julio" width="500"/>
 <img src="pics/Ret.jpg" alt="julio" width="500"/>
-Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
+
 
 ## Visulizations 
+The visualizations in this project showcase the relationships between sentiment scores and stock market movements. We provide a series of graphs that help illustrate the trends and correlations between sentiment scores derived from the Federal Reserve announcements and the stock and ETF returns. These visualizations serve as a valuable tool in understanding the impact of Federal Reserve announcements on the stock market.
+
 ![](pics/visualization1.jpg)
 <br><br>
-Some analysis here
 <br><br>
 ![](pics/visualization2.jpg)
 <br><br>
-More analysis here.
 <br><br>
 ![](pics/visualization3.jpg)
 <br><br>
 
+## Finding  <a name="finding"></a>
+- One notable finding in our research is based on the 2022-11-30 Chairman Powell speech announcement. During the announcement, Chairman Powell discussed the possibility of slowing down interest rate hikes as early as the December meeting and considering the duration of maintaining restrictive interest rates to curb inflation. 
+- Our sentiment analysis resulted in a score of 28, indicating that it was a positive announcement. We compared the returns of four different sectors, such as utilities (XLU), materials (XLB), financials (XLF), and healthcare (XLV), during the announcement period. We discovered that the utilities sector had the highest return, while the healthcare sector had the lowest return.
+![finding377](https://user-images.githubusercontent.com/112531955/235806516-3e7e0d56-ed94-468c-9480-a51f8ff1f6b6.png)
+- As a result of our sentiment analysis, we can conclude that the Federal Reserve announcement has benefited the utilities sector while causing harm to the healthcare sector. 
 
 ## Summary <a name="summary"></a>
 
