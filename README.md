@@ -74,7 +74,7 @@ Blah blah
 
 ## About the team
 
-<img src="pics/julio.jpg" alt="julio" width="300"/>
+<img src="pics/IMG_0457.JPG" alt="julio" width="300"/>
 <br>
 Julio is a senior at Lehigh studying finance.
 <br><br><br>
