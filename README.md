@@ -37,7 +37,7 @@ According to the hypotheses above, we believe that every time when the Federal R
 
 Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
 
-<img src="pics/Method.jpg" alt="julio" width="500"/>
+<img src="pics/Method.jpg" alt="julio" width="800"/>
 
 ```python
 window = 10
@@ -64,20 +64,18 @@ for event_date in event_dates:
     corr_matrix = merged_df[['Return_mean', 'Return_Standard_Deviation', 'SentimentScore']].corr()
     print(corr_matrix)
 ```
-<img src="pics/Method.jpg" alt="julio" width="500"/>
-Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
+<img src="pics/IMG_1968.JPG" alt="julio" width="800"/>
 
-## Section <a name="section2"></a>
-Blah blah
 
-### Subsection 1 <a name="subsec2-1"></a>
+## Section <a name="ETF tickers"></a>
+<img src="pics/Tickers.jpg" alt="julio" width="800"/>
+
+### Subsection 1 <a name="sentiment scores"></a>
 This is a subsection, formatted in heading 3 style
 
-### Subsection 2 <a name="subsec2-2"></a>
-This is a subsection, formatted in heading 3 style
 
-## Analysis Section <a name="section3"></a>
-
+## Analysis Section <a name="Analysis"></a>
+<img src="pics/analysis.jpg" alt="julio" width="800"/>
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
 ![](pics/visualization1.jpg)
