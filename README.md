@@ -1,7 +1,5 @@
 # Welcome to our [team project website!]((https://sikaiwang224.github.io/teamproject-/))
 
-To see the complete analysis file(s) click [here](https://github.com/julioveracruz/testwebsite/blob/main/notebooks/example.ipynb).
-
 Maybe you want a different website them for the project? Consider `minimal-mistakes`:
 1. [Go here](https://github.com/mmistakes/mm-github-pages-starter/generate).
 2. In the resulting repo, click Settings, then Pages, then make sure the source is the main branch.
