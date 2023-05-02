@@ -36,6 +36,10 @@ According to the hypotheses above, we believe that every time when the Federal R
 ## Methodology <a name="meth"></a>
 
 Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
+
+<img src="pics/Method.jpg" alt="julio" width="300"/>
+
+```python
 window = 10
 event_dates = ['2021-09-24', '2021-11-09', '2021-11-29', '2022-03-21', '2022-05-24', '2022-06-17', '2022-08-26', '2022-09-28', '2022-11-30', '2023-01-11']
 event_dates = [pd.Timestamp(date) for date in event_dates]
@@ -59,22 +63,6 @@ for event_date in event_dates:
     print(merged_df)
     corr_matrix = merged_df[['Return_mean', 'Return_Standard_Deviation', 'SentimentScore']].corr()
     print(corr_matrix)
- 
-Note that for the purposes of the website, you have to copy this code into the markdown file and  
-put the code inside trip backticks with the keyword `python`.
-
-```python
-import seaborn as sns 
-iris = sns.load_dataset('iris') 
-
-print(iris.head(),  '\n---')
-print(iris.tail(),  '\n---')
-print(iris.columns, '\n---')
-print("The shape is: ",iris.shape, '\n---')
-print("Info:",iris.info(), '\n---') # memory usage, name, dtype, and # of non-null obs (--> # of missing obs) per variable
-print(iris.describe(), '\n---') # summary stats, and you can customize the list!
-print(iris['species'].value_counts()[:10], '\n---')
-print(iris['species'].nunique(), '\n---')
 ```
 
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
