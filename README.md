@@ -36,6 +36,31 @@ According to the hypotheses above, we believe that every time when the Federal R
 ## Methodology <a name="meth"></a>
 
 Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
+window = 10
+event_dates = ['2021-09-24', '2021-11-09', '2021-11-29', '2022-03-21', '2022-05-24', '2022-06-17', '2022-08-26', '2022-09-28', '2022-11-30', '2023-01-11']
+event_dates = [pd.Timestamp(date) for date in event_dates]
+returns['Date'] = pd.to_datetime(returns['Date'])
+
+for event_date in event_dates:
+    before_event = returns[returns['Date'] < event_date].tail(window)
+    after_event = returns[returns['Date'] > event_date].head(window)
+
+    mean_before = before_event['Return'].mean()
+    std_before = before_event['Return'].std()
+    mean_after = after_event['Return'].mean()
+    std_after = after_event['Return'].std()
+
+    return_mean = (mean_before-mean_after)/mean_before
+    return_std = (std_before-std_after)/std_before
+    announce_date.loc[announce_date['Date'] == event_date, 'Return_mean'] = return_mean
+    announce_date.loc[announce_date['Date'] == event_date, 'Return_Standard_Deviation'] = return_std
+
+sentiment_score_df['Date'] = pd.to_datetime(sentiment_score_df['Date'])
+merged_df = pd.merge(announce_date, sentiment_score_df, on='Date')
+print(merged_df)
+
+corr_matrix = merged_df[['Return_mean', 'Return_Standard_Deviation', 'SentimentScore']].corr()
+print(corr_matrix)
  
 Note that for the purposes of the website, you have to copy this code into the markdown file and  
 put the code inside trip backticks with the keyword `python`.
