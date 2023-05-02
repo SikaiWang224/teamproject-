@@ -54,15 +54,15 @@ This is a subsection, formatted in heading 3 style
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
-![](pics/IMG_0457.JPG)
+![](pics/visualization1.jpg)
 <br><br>
 Some analysis here
 <br><br>
-![](pics/visualization 1.jpg)
+![](pics/visualization2.jpg)
 <br><br>
 More analysis here.
 <br><br>
-![](pics/visualization 3.jpg)
+![](pics/visualization3.jpg)
 <br><br>
 More analysis.
 
