@@ -56,9 +56,10 @@ We will create one that evolved from what we have used during the mid-term proje
 We will select the stock prices for the sector ETFs between one week before and one week after the announcement date for each Federal Reserve announcement. For example, if we have an announcement date at 3.10, we will be likely to collect the market price between 3.3 and 3.17 day by day. Then, we will calculate the returns for each stock and ETF. The ETF returns can be accessed through financial data providers such as Yahoo Finance (https://finance.yahoo.com/).
 #### Data Storage:
 ##### Raw Inputs:
-- Federal Reserve announcements: stored in a folder named "announcements"
-- Stock prices and ETF returns: stored in a folder named "stock_data"
-- Final Dataset: stored in a folder named "final_data"
+- Federal Reserve announcements: stored in a folder named "Fed"
+- Stock prices and ETF returns: stored in a folder named "ETFdata"
+- Positive and Negative Sentiment lists: stored in a folder named "Sentiment"
+- Final Dataset: stored in a folder named "analysis cvs file"
 
 #### Target variable
 Our target variables are the excess returns for the selected sector ETFs. We aim to find the correlation between these excess returns and the sentiment scores derived from the Federal Reserve announcements.
