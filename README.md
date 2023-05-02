@@ -54,13 +54,11 @@ for event_date in event_dates:
     return_std = (std_before-std_after)/std_before
     announce_date.loc[announce_date['Date'] == event_date, 'Return_mean'] = return_mean
     announce_date.loc[announce_date['Date'] == event_date, 'Return_Standard_Deviation'] = return_std
-
-sentiment_score_df['Date'] = pd.to_datetime(sentiment_score_df['Date'])
-merged_df = pd.merge(announce_date, sentiment_score_df, on='Date')
-print(merged_df)
-
-corr_matrix = merged_df[['Return_mean', 'Return_Standard_Deviation', 'SentimentScore']].corr()
-print(corr_matrix)
+    sentiment_score_df['Date'] = pd.to_datetime(sentiment_score_df['Date'])
+    merged_df = pd.merge(announce_date, sentiment_score_df, on='Date')
+    print(merged_df)
+    corr_matrix = merged_df[['Return_mean', 'Return_Standard_Deviation', 'SentimentScore']].corr()
+    print(corr_matrix)
  
 Note that for the purposes of the website, you have to copy this code into the markdown file and  
 put the code inside trip backticks with the keyword `python`.
