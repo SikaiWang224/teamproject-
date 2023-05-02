@@ -67,11 +67,11 @@ for event_date in event_dates:
 <img src="pics/IMG_1968.JPG" alt="julio" width="800"/>
 
 
-## Section <a name="ETF tickers"></a>
+## Section <a name="ETFtickers"></a>
 <img src="pics/Tickers.jpg" alt="julio" width="800"/>
 
-### Subsection 1 <a name="sentiment scores"></a>
-This is a subsection, formatted in heading 3 style
+### Subsection 1 <a name="sentimentscores"></a>
+<img src="pics/setscore.jpg" alt="julio" width="800"/>
 
 
 ## Analysis Section <a name="Analysis"></a>
@@ -89,7 +89,7 @@ More analysis here.
 ![](pics/visualization3.jpg)
 <br><br>
 More analysis.
-
+<img src="pics/Ret.jpg" alt="julio" width="800"/>
 ## Summary <a name="summary"></a>
 
 Blah blah
