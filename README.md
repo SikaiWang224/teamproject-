@@ -76,13 +76,13 @@ Blah blah
 
 <img src="pics/IMG_1966.JPG" alt="julio" width="300"/>
 <br>
-Julio is a senior at Lehigh studying finance.
+Sikai is a student in Lehigh University majoring in Finance and Business Analytics. I’ve always been fascinated by the world of finance and the role it plays in shaping our economy, which leads me to join IMG and participate in the Analyst Development Program.
 <br><br><br>
 <img src="pics/IMG_1967.JPG" alt="don" width="300"/>
 <br>
-Don is an assistant professor at Lehigh.
+Sz-Je Wang is a highly motivated Finance and Business Analytics major with a FinTech minor at Lehigh University, expecting to graduate in May 2024. My academic journey has been fueled by a strong passion for understanding the intricacies of financial markets. 
 <img src="pics/IMG_0457.JPG" alt="don" width="300"/>
-
+Xilong Liu is a student at Lehigh University majoring Finance and Consulting Management. I am a passion buisness student who is pursing use data and insight to solve finance problem
 ## More 
 
 To view the GitHub repo for this website, click [here](https://github.com/donbowen/teamproject).
