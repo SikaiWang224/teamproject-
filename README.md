@@ -71,8 +71,11 @@ for event_date in event_dates:
 <img src="pics/Tickers.jpg" alt="julio" width="800"/>
 
 ### Sentiment scores <a name="sentimentscores"></a>
-<img src="pics/setscore.jpg" alt="julio" width="800"/>
+By analyzing the sentiment score analysis of news articles, social media posts, and other textual data, traders and investors can identify emerging trends, gauge market sentiment, and make more informed investment decisions. Sentiment score analysis is one of the many tools used in fundamental analysis, which involves analyzing the underlying financial and economic factors that affect the stock market.
 
+<img src="pics/setscore.jpg" alt="julio" width="500"/>
+<img src="pics/set1.jpg" alt="julio" width="500"/>
+<img src="pics/set2.jpg" alt="julio" width="500"/>
 
 ## Analysis  <a name="Analysis"></a>
 <img src="pics/analysis.jpg" alt="julio" width="800"/>
