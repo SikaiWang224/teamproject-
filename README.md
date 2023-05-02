@@ -79,8 +79,10 @@ By analyzing the sentiment score analysis of news articles, social media posts, 
 
 ## Analysis  <a name="Analysis"></a>
 <img src="pics/analysis.jpg" alt="julio" width="500"/>
+<img src="pics/Ret.jpg" alt="julio" width="500"/>
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
+## Visulizations 
 ![](pics/visualization1.jpg)
 <br><br>
 Some analysis here
@@ -92,12 +94,12 @@ More analysis here.
 ![](pics/visualization3.jpg)
 <br><br>
 
-More analysis.
 
-<img src="pics/Ret.jpg" alt="julio" width="500"/>
 ## Summary <a name="summary"></a>
 
-Blah blah
+Overall, this final project  involves the use of machine learning algorithms to analyze news articles, social media posts and other text data to determine the sentiment of market participants regarding Fed announcements. Sentiment score analysis assigns a score to each text segment based on its positive, negative or neutral sentiment.
+
+Also,The impact on sector etfs is analyzed by examining the price movements of etfs focused on specific economic sectors (e.g., technology, health care or energy) following the Fed announcement. The purpose of the analysis is to determine whether market participants' sentiment toward the announcement is positively or negatively correlated with the price movement of sector etfs. Finally,the sentiment analysis results of Fed announcements and their subsequent impact on sector etfs can provide valuable insights for traders and investors to make informed investment decisions. By understanding market participants' sentiment towards the Fed announcement and its impact on sector etfs, traders and investors can adjust their investment strategies and manage their exposures accordingly
 
 
 
@@ -112,6 +114,6 @@ Sikai is a student in Lehigh University majoring in Finance and Business Analyti
 Sz-Je Wang is a highly motivated Finance and Business Analytics major with a FinTech minor at Lehigh University, expecting to graduate in May 2024. My academic journey has been fueled by a strong passion for understanding the intricacies of financial markets. 
 <img src="pics/IMG_0457.JPG" alt="don" width="300"/>
 Xilong Liu is a student at Lehigh University majoring Finance and Consulting Management. I am a passion buisness student who is pursing use data and insight to solve finance problem
-## More 
 
-To view the GitHub repo for this website, click [here](https://github.com/donbowen/teamproject).
+
+To view the GitHub repo for this website, click [here](https://github.com/SikaiWang224/teamproject-).
