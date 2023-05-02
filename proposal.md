@@ -1,14 +1,14 @@
-# Research Proposal: Sentiment Analysis of Federal Reserve Announcements and its Impact on the S&P 500 and Sector ETFs
+# Research Proposal: Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs
 By _Sz-Je Wang, Sikai Wang, and Xilong Liu_
 
 
 ## Research Question: 
-How do Federal Reserve announcements influence the stock market according to **Natural language processing**, particularly the S&P 500 and ETFs across various sectors? 
+How do Federal Reserve announcements influence the stock market according to **Natural language processing**, particularly the ETFs across various sectors? 
 
 
 ### Specific research question:
 - What is the overall sentiment and intensity in the each announcements?
-- How do these sentiment scores correlate with subsequent stock market movements for the S&P 500 and sector ETFs?
+- How do these sentiment scores correlate with subsequent stock market movements for the sector ETFs?
 - Can we predict stock market reactions based on the sentiment derived from announcements? 
 
 ### Hypotheses:
@@ -16,7 +16,7 @@ How do Federal Reserve announcements influence the stock market according to **N
 - Negative sentiment score in announcements leads to a **negative** stock market reaction.
 
 ### Predictions:
-According to the hypotheses above, we believe that every time when the Federal Reserve announcements related to a piece of good news are released, the stock of companies within the S&P 500 will show a good trend and vice versa. Whether it has a piece of good news is determined by the sentiment score that we measure.
+According to the hypotheses above, we believe that every time when the Federal Reserve announcements related to a piece of good news are released, the stock of companies will show a good trend and vice versa. Whether it has a piece of good news is determined by the sentiment score that we measure.
 
 ### Data Transformation:
 #### High-level Overview:
@@ -26,7 +26,7 @@ According to the hypotheses above, we believe that every time when the Federal R
 
 ## Necessary Data
 ### Final Dataset
-- Observation: Federal Reserve announcements, S&P 500 stocks, and sector ETFs.
+- Observation: Federal Reserve announcements and sector ETFs.
 - Sample Period: Recent 10 most significant Federal Reserve announcements.
 - Necessary Variables: Sentiment scores, stock prices, and returns.
 #### Variable
@@ -53,7 +53,7 @@ We will create one that evolved from what we have used during the mid-term proje
 - Real Estate: Real Estate Select Sector SPDR Fund (XLRE)
 - Communication Services: Communication Services Select Sector SPDR Fund (XLC)
 #### Return:
-We will select the stock prices for the S&P 500 and sector ETFs between one week before and one week after the announcement date for each Federal Reserve announcement. For example, if we have an announcement date at 3.10, we will be likely to collect the market price between 3.3 and 3.17 day by day. Then, we will calculate the returns for each stock and ETF. The ETF returns can be accessed through financial data providers such as Yahoo Finance (https://finance.yahoo.com/).
+We will select the stock prices for the sector ETFs between one week before and one week after the announcement date for each Federal Reserve announcement. For example, if we have an announcement date at 3.10, we will be likely to collect the market price between 3.3 and 3.17 day by day. Then, we will calculate the returns for each stock and ETF. The ETF returns can be accessed through financial data providers such as Yahoo Finance (https://finance.yahoo.com/).
 #### Data Storage:
 ##### Raw Inputs:
 - Federal Reserve announcements: stored in a folder named "announcements"
@@ -61,7 +61,7 @@ We will select the stock prices for the S&P 500 and sector ETFs between one week
 - Final Dataset: stored in a folder named "final_data"
 
 #### Target variable
-Our target variables are the excess returns for the S&P 500 stocks and selected sector ETFs. We aim to find the correlation between these excess returns and the sentiment scores derived from the Federal Reserve announcements.
+Our target variables are the excess returns for the selected sector ETFs. We aim to find the correlation between these excess returns and the sentiment scores derived from the Federal Reserve announcements.
 
 ### Related Files 
 - Run ipynb through the order I provide below
