@@ -37,7 +37,7 @@ According to the hypotheses above, we believe that every time when the Federal R
 
 Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
 
-<img src="pics/Method.jpg" alt="julio" width="800"/>
+<img src="pics/Method.jpg" alt="julio" width="500"/>
 
 ```python
 window = 10
@@ -64,11 +64,11 @@ for event_date in event_dates:
     corr_matrix = merged_df[['Return_mean', 'Return_Standard_Deviation', 'SentimentScore']].corr()
     print(corr_matrix)
 ```
-<img src="pics/IMG_1968.JPG" alt="julio" width="800"/>
+<img src="pics/IMG_1968.JPG" alt="julio" width="500"/>
 
 
 ## ETF tickers <a name="ETFtickers"></a>
-<img src="pics/Tickers.jpg" alt="julio" width="800"/>
+<img src="pics/Tickers.jpg" alt="julio" width="500"/>
 
 ### Sentiment scores <a name="sentimentscores"></a>
 By analyzing the sentiment score analysis of news articles, social media posts, and other textual data, traders and investors can identify emerging trends, gauge market sentiment, and make more informed investment decisions. Sentiment score analysis is one of the many tools used in fundamental analysis, which involves analyzing the underlying financial and economic factors that affect the stock market.
@@ -78,7 +78,7 @@ By analyzing the sentiment score analysis of news articles, social media posts, 
 <img src="pics/set2.jpg" alt="julio" width="500"/>
 
 ## Analysis  <a name="Analysis"></a>
-<img src="pics/analysis.jpg" alt="julio" width="800"/>
+<img src="pics/analysis.jpg" alt="julio" width="500"/>
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
 ![](pics/visualization1.jpg)
@@ -94,7 +94,7 @@ More analysis here.
 
 More analysis.
 
-<img src="pics/Ret.jpg" alt="julio" width="800"/>
+<img src="pics/Ret.jpg" alt="julio" width="500"/>
 ## Summary <a name="summary"></a>
 
 Blah blah
@@ -103,7 +103,7 @@ Blah blah
 
 ## About the team
 
-<img src="pics/IMG_1966.JPG" alt="julio" width="500"/>
+<img src="pics/IMG_1966.JPG" alt="julio" width="300"/>
 <br>
 Sikai is a student in Lehigh University majoring in Finance and Business Analytics. I’ve always been fascinated by the world of finance and the role it plays in shaping our economy, which leads me to join IMG and participate in the Analyst Development Program.
 <br><br><br>
