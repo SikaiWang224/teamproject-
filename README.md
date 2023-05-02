@@ -67,14 +67,14 @@ for event_date in event_dates:
 <img src="pics/IMG_1968.JPG" alt="julio" width="800"/>
 
 
-## Section <a name="ETFtickers"></a>
+## ETF tickers <a name="ETFtickers"></a>
 <img src="pics/Tickers.jpg" alt="julio" width="800"/>
 
-### Subsection 1 <a name="sentimentscores"></a>
+### Sentiment scores <a name="sentimentscores"></a>
 <img src="pics/setscore.jpg" alt="julio" width="800"/>
 
 
-## Analysis Section <a name="Analysis"></a>
+## Analysis  <a name="Analysis"></a>
 <img src="pics/analysis.jpg" alt="julio" width="800"/>
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
@@ -88,7 +88,9 @@ More analysis here.
 <br><br>
 ![](pics/visualization3.jpg)
 <br><br>
+
 More analysis.
+
 <img src="pics/Ret.jpg" alt="julio" width="800"/>
 ## Summary <a name="summary"></a>
 
