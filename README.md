@@ -58,7 +58,7 @@ Here are some graphs that we created in our analysis. We saved them to the `pics
 <br><br>
 Some analysis here
 <br><br>
-![](pics/visualization 2.jpg)
+![](pics/visualization 1.jpg)
 <br><br>
 More analysis here.
 <br><br>
