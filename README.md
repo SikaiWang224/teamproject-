@@ -103,7 +103,7 @@ Blah blah
 
 ## About the team
 
-<img src="pics/IMG_1967.JPG" alt="julio" width="500"/>
+<img src="pics/IMG_1966.JPG" alt="julio" width="500"/>
 <br>
 Sikai is a student in Lehigh University majoring in Finance and Business Analytics. I’ve always been fascinated by the world of finance and the role it plays in shaping our economy, which leads me to join IMG and participate in the Analyst Development Program.
 <br><br><br>
