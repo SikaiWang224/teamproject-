@@ -1,6 +1,8 @@
 # Welcome to our [team project website!]((https://sikaiwang224.github.io/teamproject-/))
 
-Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs
+Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs((https://docs.google.com/presentation/d/1YXygd4gBerj14SOamKhkprre9bx5oJdjxJ6GZWQTzq8/edit#slide=id.p))
+
+https://docs.google.com/presentation/d/1YXygd4gBerj14SOamKhkprre9bx5oJdjxJ6GZWQTzq8/edit#slide=id.p
 
 ## Table of contents
 1. [Introduction](#introduction)
