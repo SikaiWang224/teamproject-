@@ -1,8 +1,7 @@
-# Welcome to our team project website!((https://docs.google.com/presentation/d/1YXygd4gBerj14SOamKhkprre9bx5oJdjxJ6GZWQTzq8/edit#slide=id.p))
+# Welcome to our team project website!
+Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs
 
-Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs((https://docs.google.com/presentation/d/1YXygd4gBerj14SOamKhkprre9bx5oJdjxJ6GZWQTzq8/edit#slide=id.p))
-
-# Welcome to our [team project website!]((https://sikaiwang224.github.io/teamproject-/))
+# Welcome to our team project website!
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
@@ -11,6 +10,8 @@ Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector
 4. [Analysis Section](#analysis)
 5. [Finding](#finding)
 6. [Summary](#summary)
+7. [About the team](#about)
+8. [Additional Resource](#additional)
 
 ## Introduction  <a name="introduction"></a>
 The main goal of this project is to see how Federal Reserve announcements impact the stock market in recent 2 years.
@@ -120,8 +121,7 @@ Overall, this final project  involves the use of machine learning algorithms to 
 Also,The impact on sector etfs is analyzed by examining the price movements of etfs focused on specific economic sectors (e.g., technology, health care or energy) following the Fed announcement. The purpose of the analysis is to determine whether market participants' sentiment toward the announcement is positively or negatively correlated with the price movement of sector etfs. Finally,the sentiment analysis results of Fed announcements and their subsequent impact on sector etfs can provide valuable insights for traders and investors to make informed investment decisions. By understanding market participants' sentiment towards the Fed announcement and its impact on sector etfs, traders and investors can adjust their investment strategies and manage their exposures accordingly
 
 
-
-## About the team
+## About the team <a name="about"></a>
 
 <img src="pics/IMG_1966.JPG" alt="julio" width="300"/>
 <br>
@@ -134,5 +134,8 @@ Sz-Je Wang is a highly motivated Finance and Business Analytics major with a Fin
 <br>
 Xilong Liu is a student at Lehigh University majoring Finance and Consulting Management. I am a passion buisness student who is pursing use data and insight to solve finance problem
 
+## Additional Resource <a name="additional"></
+- Presentation
+https://docs.google.com/presentation/d/1YXygd4gBerj14SOamKhkprre9bx5oJdjxJ6GZWQTzq8/edit?usp=sharing
 
 To view the GitHub repo for this website, click [here](https://github.com/SikaiWang224/teamproject-).
