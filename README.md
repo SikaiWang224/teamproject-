@@ -1,7 +1,5 @@
-# Welcome to our team project website!
-Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs
+# Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs
 
-# Welcome to our team project website!
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
