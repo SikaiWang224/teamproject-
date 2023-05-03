@@ -129,6 +129,7 @@ Sikai is a student in Lehigh University majoring in Finance and Business Analyti
 <img src="pics/IMG_1967.JPG" alt="don" width="300"/>
 <br>
 Sz-Je Wang is a highly motivated Finance and Business Analytics major with a FinTech minor at Lehigh University, expecting to graduate in May 2024. My academic journey has been fueled by a strong passion for understanding the intricacies of financial markets. 
+<br>
 <img src="pics/IMG_0457.JPG" alt="don" width="300"/>
 <br>
 Xilong Liu is a student at Lehigh University majoring Finance and Consulting Management. I am a passion buisness student who is pursing use data and insight to solve finance problem
