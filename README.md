@@ -1,4 +1,5 @@
-# Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs
+# Welcome to our team project website!
+Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs
 
 ## Table of contents
 1. [Introduction](#introduction)
