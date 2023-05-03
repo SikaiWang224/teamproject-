@@ -132,7 +132,7 @@ Sz-Je Wang is a highly motivated Finance and Business Analytics major with a Fin
 <br>
 Xilong Liu is a student at Lehigh University majoring Finance and Consulting Management. I am a passion buisness student who is pursing use data and insight to solve finance problem
 
-## Additional Resource <a name="additional"></
+## Additional Resource <a name="additional"></a>
 - Presentation
 https://docs.google.com/presentation/d/1YXygd4gBerj14SOamKhkprre9bx5oJdjxJ6GZWQTzq8/edit?usp=sharing
 
