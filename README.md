@@ -81,7 +81,6 @@ for event_date in event_dates:
 - Utilities: Utilities Select Sector SPDR Fund (XLU)
 - Real Estate: Real Estate Select Sector SPDR Fund (XLRE)
 - Communication Services: Communication Services Select Sector SPDR Fund (XLC)
-<img src="pics/Tickers.jpg" alt="julio" width="500"/>
 
 ### Sentiment scores <a name="sentimentscores"></a>
 By analyzing the sentiment score analysis of news articles, social media posts, and other textual data, traders and investors can identify emerging trends, gauge market sentiment, and make more informed investment decisions. Sentiment score analysis is one of the many tools used in fundamental analysis, which involves analyzing the underlying financial and economic factors that affect the stock market.
