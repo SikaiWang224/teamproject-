@@ -87,7 +87,7 @@ By analyzing the sentiment score analysis of news articles, social media posts, 
 [More details are provided in the notebook](Sentiment Analysis.ipynb).
 
 <img src="pics/set1.jpg" alt="julio" width="500"/>
-<img src="pics/setscore.jpg" alt="julio" width="500"/>
+<img src="pics/Sentiment .png" alt="julio" width="500"/>
 
 ## Visulizations 
 The visualizations in this project showcase the relationships between sentiment scores and stock market movements. We provide a series of graphs that help illustrate the trends and correlations between sentiment scores derived from the Federal Reserve announcements and the stock and ETF returns. These visualizations serve as a valuable tool in understanding the impact of Federal Reserve announcements on the stock market.
@@ -108,7 +108,7 @@ Our analysis involves examining the correlation between the sentiment scores der
 [More details are provided in the notebook](Analysis.ipynb).
 
 <img src="pics/analysis.jpg" alt="julio" width="500"/>
-<img src="pics/Tickers.jpg" alt="julio" width="500"/>
+<img src="pics/setscore.jpg" alt="julio" width="500"/>
 
 
 
