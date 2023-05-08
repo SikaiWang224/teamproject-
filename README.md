@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
 3. [ETF Tickers](#etftickers)
-4. [Analysis Section](#analysis section)
+4. [Analysis Section](#analysissection)
     - [Visulizations](#Visulizations)
     - [Sentiment Scores](#sentimentscores)
     - [Analysis](#analysis)
@@ -94,7 +94,7 @@ for event_date in event_dates:
 - Real Estate: Real Estate Select Sector SPDR Fund (XLRE)
 - Communication Services: Communication Services Select Sector SPDR Fund (XLC)
 
-## Analysis Section <a name="analysis section"></a>
+## Analysis Section <a name="analysissection"></a>
 
 ###  Visulizations <a name="Visulizations"></a>
 The visualizations in this project showcase the relationships between sentiment scores and stock market movements. We provide a series of graphs that help illustrate the trends and correlations between sentiment scores derived from the Federal Reserve announcements and the stock and ETF returns. These visualizations serve as a valuable tool in understanding the impact of Federal Reserve announcements on the stock market.
@@ -129,10 +129,12 @@ Our analysis involves examining the correlation between the sentiment scores der
 
 
 ## Finding  <a name="finding"></a>
-- One notable finding in our research is based on the 2022-11-30 Chairman Powell speech announcement. During the announcement, Chairman Powell discussed the possibility of slowing down interest rate hikes as early as the December meeting and considering the duration of maintaining restrictive interest rates to curb inflation. 
+- One notable finding in our research is based on the 2022-11-30 Chairman Powell speech announcement. During the announcement, Chairman Powell discussed the possibility of slowing down interest rate hikes as early as the December meeting and considering the duration of maintaining restrictive interest rates to curb inflation.
+<img src="pics/221130135913-jerome-powell-brookings-speech-1130-super-tease.jpg" alt="julio" width="500"/>
+[![Federal Reserve Announcement Analysis](http://img.youtube.com/vi/yYUIt6FtIB4/0.jpg)](http://www.youtube.com/watch?v=yYUIt6FtIB4 "Federal Reserve Announcement Analysis")
 - Our sentiment analysis resulted in a score of 28, indicating that it was a positive announcement. We compared the returns of four different sectors, such as utilities (XLU), materials (XLB), financials (XLF), and healthcare (XLV), during the announcement period. We discovered that the utilities sector had the highest return, while the healthcare sector had the lowest return.
-![finding377](https://user-images.githubusercontent.com/112531955/235806516-3e7e0d56-ed94-468c-9480-a51f8ff1f6b6.png)
-- As a result of our sentiment analysis, we can conclude that the Federal Reserve announcement has benefited the utilities sector while causing harm to the healthcare sector. 
+<img src="pics/nov.analysis.png" alt="julio" width="500"/>
+- As a result of our sentiment analysis, we can conclude that the Federal Reserve announcement has benefited the utilities sector while causing harm to the healthcare sector. The slowing down of interest rate hikes can benefit the utilities sector (XLU) as these companies typically have high levels of debt due to the capital-intensive nature of their business. A slower pace of rate hikes means lower borrowing costs, which can boost their profitability and cash flows. Conversely, the healthcare sector (XLV) may be negatively impacted by the slower pace of rate hikes, as it could lead to higher inflationary pressures that may increase operational costs and erode profit margins for healthcare companies. Additionally, as healthcare is a more cyclical sector, it may be more vulnerable to broader economic fluctuations caused by changes in monetary policy.
 
 ## Summary <a name="summary"></a>
 
