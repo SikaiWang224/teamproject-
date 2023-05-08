@@ -90,15 +90,6 @@ By analyzing the sentiment score analysis of news articles, social media posts, 
 <img src="pics/set1.jpg" alt="julio" width="500"/>
 <img src="pics/setscore.jpg" alt="julio" width="500"/>
 
-## Analysis  <a name="analysis"></a>
-Our analysis involves examining the correlation between the sentiment scores derived from the Federal Reserve announcements and the subsequent stock market movements for the sector ETFs. By identifying the trends in these correlations, we can better understand the impact of Federal Reserve announcements on the stock market and make more informed predictions about stock market reactions based on the sentiment derived from announcements.
-[More details are provided in the notebook](Analysis.ipynb).
-
-<img src="pics/analysis.jpg" alt="julio" width="500"/>
-<img src="pics/Ret.jpg" alt="julio" width="500"/>
-
-
-
 ## Visulizations 
 The visualizations in this project showcase the relationships between sentiment scores and stock market movements. We provide a series of graphs that help illustrate the trends and correlations between sentiment scores derived from the Federal Reserve announcements and the stock and ETF returns. These visualizations serve as a valuable tool in understanding the impact of Federal Reserve announcements on the stock market.
 [More details are provided in the notebook](visualization.ipynb).
@@ -111,6 +102,16 @@ The visualizations in this project showcase the relationships between sentiment 
 <br><br>
 ![](pics/visualization3.jpg)
 <br><br>
+
+
+## Analysis  <a name="analysis"></a>
+Our analysis involves examining the correlation between the sentiment scores derived from the Federal Reserve announcements and the subsequent stock market movements for the sector ETFs. By identifying the trends in these correlations, we can better understand the impact of Federal Reserve announcements on the stock market and make more informed predictions about stock market reactions based on the sentiment derived from announcements.
+[More details are provided in the notebook](Analysis.ipynb).
+
+<img src="pics/analysis.jpg" alt="julio" width="500"/>
+<img src="pics/Tickers.jpg" alt="julio" width="500"/>
+
+
 
 ## Finding  <a name="finding"></a>
 - One notable finding in our research is based on the 2022-11-30 Chairman Powell speech announcement. During the announcement, Chairman Powell discussed the possibility of slowing down interest rate hikes as early as the December meeting and considering the duration of maintaining restrictive interest rates to curb inflation. 
