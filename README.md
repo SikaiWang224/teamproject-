@@ -16,7 +16,8 @@
 
 ## Introduction  <a name="introduction"></a>
 The main goal of this project is to see how Federal Reserve announcements impact the stock market in recent 2 years.
-Research Question:
+
+### Research Question:
 How do Federal Reserve announcements influence the stock market according to Natural language processing, particularly the ETFs across various sectors?
 
 ### Specific research question:
@@ -133,6 +134,7 @@ Our analysis involves examining the correlation between the sentiment scores der
 
 #### Click the image below to see the Youtube video for Fed Chair Powell speaks at The Brookings Institute on economic outlook — 11/30/22
 [![Federal Reserve Announcement Analysis](http://img.youtube.com/vi/yYUIt6FtIB4/0.jpg)](http://www.youtube.com/watch?v=yYUIt6FtIB4 "Federal Reserve Announcement Analysis")
+<br>
 [Read the full text of the speech here](https://www.federalreserve.gov/newsevents/speech/powell20221130a.htm)
 - Our sentiment analysis resulted in a score of 28, indicating that it was a positive announcement. We compared the returns of four different sectors, such as utilities (XLU), materials (XLB), financials (XLF), and healthcare (XLV), during the announcement period. We discovered that the utilities sector had the highest return, while the healthcare sector had the lowest return.
 <img src="pics/nov.analysis.png" alt="julio" width="500"/>
