@@ -1,12 +1,14 @@
 # Welcome to our team project website!
-- <a href="https://docs.google.com/presentation/d/1YXygd4gBerj14SOamKhkprre9bx5oJdjxJ6GZWQTzq8/edit">Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs</a> 
+<a href="https://docs.google.com/presentation/d/1YXygd4gBerj14SOamKhkprre9bx5oJdjxJ6GZWQTzq8/edit">Sentiment Analysis of Federal Reserve Announcements and its Impact on the Sector ETFs</a> 
 
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
 3. [ETF Tickers](#etftickers)
-    1. [Sentiment Scores](#sentimentscores)
-4. [Analysis Section](#analysis)
+4. [Analysis Section](#analysis section)
+    - [Visulizations](#Visulizations)
+    - [Sentiment Scores](#sentimentscores)
+    - [Analysis](#analysis)
 5. [Finding](#finding)
 6. [Summary](#summary)
 7. [About the team](#about)
@@ -89,7 +91,9 @@ for event_date in event_dates:
 - Real Estate: Real Estate Select Sector SPDR Fund (XLRE)
 - Communication Services: Communication Services Select Sector SPDR Fund (XLC)
 
-## Visulizations 
+## Analysis Section <a name="analysis section"></a>
+
+###  Visulizations <a name="Visulizations"></a>
 The visualizations in this project showcase the relationships between sentiment scores and stock market movements. We provide a series of graphs that help illustrate the trends and correlations between sentiment scores derived from the Federal Reserve announcements and the stock and ETF returns. These visualizations serve as a valuable tool in understanding the impact of Federal Reserve announcements on the stock market.
 [More details are provided in the notebook](visualization.ipynb).
 
@@ -112,7 +116,7 @@ By analyzing the sentiment score analysis of news articles, social media posts, 
 
 
 
-## Analysis  <a name="analysis"></a>
+### Analysis <a name="analysis"></a>
 Our analysis involves examining the correlation between the sentiment scores derived from the Federal Reserve announcements and the subsequent stock market movements for the sector ETFs. By identifying the trends in these correlations, we can better understand the impact of Federal Reserve announcements on the stock market and make more informed predictions about stock market reactions based on the sentiment derived from announcements.
 [More details are provided in the notebook](Analysis.ipynb).
 
