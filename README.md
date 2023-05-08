@@ -24,7 +24,6 @@ How do Federal Reserve announcements influence the stock market according to Nat
 - How do these sentiment scores correlate with subsequent stock market movements for the sector ETFs?
 - Can we predict stock market reactions based on the sentiment derived from announcements?
 
-<img src="pics/chair powell.jpeg" alt="julio" width="500"/>
 
 
 ### Our Hypotheses:
@@ -34,11 +33,10 @@ How do Federal Reserve announcements influence the stock market according to Nat
 ### Predictions:
 According to the hypotheses above, we believe that every time when the Federal Reserve announcements related to a piece of good news are released, the stock of companies will show a good trend and vice versa. Whether it has a piece of good news is determined by the sentiment score that we measure.
 
-  
-
+ <img src="pics/chair powell.jpeg" alt="julio" width="500"/>
 ## Methodology <a name="meth"></a>
 
-In this project, we perform sentiment analysis on the Federal Reserve announcements using natural language processing to obtain sentiment scores. We then merge these sentiment scores with the corresponding stock and ETF returns to analyze the correlation between the sentiment scores and stock market movements. This analysis allows us to gain insights into the influence of Federal Reserve announcements on the stock market, particularly the ETFs across various sectors.
+In this project, we perform sentiment analysis on the Federal Reserve announcements using natural language processing to obtain sentiment scores. Before that, we select 10 Federal Reserve announcements given by chair Powell. We then merge these sentiment scores with the corresponding stock and ETF returns to analyze the correlation between the sentiment scores and stock market movements. This analysis allows us to gain insights into the influence of Federal Reserve announcements on the stock market, particularly the ETFs across various sectors.
 
 ### Notebook
 There are 3 Jupyter lab notebook available in this repo.
