@@ -34,10 +34,12 @@ According to the hypotheses above, we believe that every time when the Federal R
 ## Methodology <a name="meth"></a>
 
 In this project, we perform sentiment analysis on the Federal Reserve announcements using natural language processing to obtain sentiment scores. We then merge these sentiment scores with the corresponding stock and ETF returns to analyze the correlation between the sentiment scores and stock market movements. This analysis allows us to gain insights into the influence of Federal Reserve announcements on the stock market, particularly the ETFs across various sectors.
-[More details are provided in the notebook](visualization.ipynb).
 
-<img src="pics/Method.jpg" alt="julio" width="500"/>
+### How does the dataframe look like
+<img src="pics/IMG_1968.JPG" alt="julio" width="500"/>
 
+### Event_dates
+We regard 10 days before the event date and 10 days after the event date with its annoucement date into one period. We have totally 10 periods reprsenting for 10 annoucement event. 
 ```python
 window = 10
 event_dates = ['2021-09-24', '2021-11-09', '2021-11-29', '2022-03-21', '2022-05-24', '2022-06-17', '2022-08-26', '2022-09-28', '2022-11-30', '2023-01-11']
@@ -63,7 +65,6 @@ for event_date in event_dates:
     corr_matrix = merged_df[['Return_mean', 'Return_Standard_Deviation', 'SentimentScore']].corr()
     print(corr_matrix)
 ```
-<img src="pics/IMG_1968.JPG" alt="julio" width="500"/>
 
 
 ## ETF Tickers <a name="etftickers"></a>
@@ -84,19 +85,23 @@ for event_date in event_dates:
 
 ### Sentiment scores <a name="sentimentscores"></a>
 By analyzing the sentiment score analysis of news articles, social media posts, and other textual data, traders and investors can identify emerging trends, gauge market sentiment, and make more informed investment decisions. Sentiment score analysis is one of the many tools used in fundamental analysis, which involves analyzing the underlying financial and economic factors that affect the stock market.
+[More details are provided in the notebook](Sentiment Analysis.ipynb).
 
 <img src="pics/set1.jpg" alt="julio" width="500"/>
 <img src="pics/setscore.jpg" alt="julio" width="500"/>
 
 ## Analysis  <a name="analysis"></a>
 Our analysis involves examining the correlation between the sentiment scores derived from the Federal Reserve announcements and the subsequent stock market movements for the sector ETFs. By identifying the trends in these correlations, we can better understand the impact of Federal Reserve announcements on the stock market and make more informed predictions about stock market reactions based on the sentiment derived from announcements.
+[More details are provided in the notebook](Analysis.ipynb).
 
 <img src="pics/analysis.jpg" alt="julio" width="500"/>
 <img src="pics/Ret.jpg" alt="julio" width="500"/>
 
 
+
 ## Visulizations 
 The visualizations in this project showcase the relationships between sentiment scores and stock market movements. We provide a series of graphs that help illustrate the trends and correlations between sentiment scores derived from the Federal Reserve announcements and the stock and ETF returns. These visualizations serve as a valuable tool in understanding the impact of Federal Reserve announcements on the stock market.
+[More details are provided in the notebook](visualization.ipynb).
 
 ![](pics/visualization1.jpg)
 <br><br>
