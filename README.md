@@ -24,6 +24,9 @@ How do Federal Reserve announcements influence the stock market according to Nat
 - How do these sentiment scores correlate with subsequent stock market movements for the sector ETFs?
 - Can we predict stock market reactions based on the sentiment derived from announcements?
 
+<img src="pics/chair powell.jpeg" alt="julio" width="500"/>
+
+
 ### Our Hypotheses:
 - Positive sentiment score in announcements leads to a positive stock market reaction.
 - Negative sentiment score in announcements leads to a negative stock market reaction.
