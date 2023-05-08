@@ -34,7 +34,7 @@ According to the hypotheses above, we believe that every time when the Federal R
 ## Methodology <a name="meth"></a>
 
 In this project, we perform sentiment analysis on the Federal Reserve announcements using natural language processing to obtain sentiment scores. We then merge these sentiment scores with the corresponding stock and ETF returns to analyze the correlation between the sentiment scores and stock market movements. This analysis allows us to gain insights into the influence of Federal Reserve announcements on the stock market, particularly the ETFs across various sectors.
-[More details are provided in the Appendix](page2).
+[More details are provided in the notebook](visualization.ipynb).
 
 <img src="pics/Method.jpg" alt="julio" width="500"/>
 
