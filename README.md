@@ -130,11 +130,20 @@ Our analysis involves examining the correlation between the sentiment scores der
 
 ## Finding  <a name="finding"></a>
 - One notable finding in our research is based on the 2022-11-30 Chairman Powell speech announcement. During the announcement, Chairman Powell discussed the possibility of slowing down interest rate hikes as early as the December meeting and considering the duration of maintaining restrictive interest rates to curb inflation.
-<img src="pics/221130135913-jerome-powell-brookings-speech-1130-super-tease.jpg" alt="julio" width="500"/>
+
+#### Click the image below to see the Youtube video for Fed Chair Powell speaks at The Brookings Institute on economic outlook — 11/30/22
 [![Federal Reserve Announcement Analysis](http://img.youtube.com/vi/yYUIt6FtIB4/0.jpg)](http://www.youtube.com/watch?v=yYUIt6FtIB4 "Federal Reserve Announcement Analysis")
+[Read the full text of the speech here](https://www.federalreserve.gov/newsevents/speech/powell20221130a.htm)
 - Our sentiment analysis resulted in a score of 28, indicating that it was a positive announcement. We compared the returns of four different sectors, such as utilities (XLU), materials (XLB), financials (XLF), and healthcare (XLV), during the announcement period. We discovered that the utilities sector had the highest return, while the healthcare sector had the lowest return.
 <img src="pics/nov.analysis.png" alt="julio" width="500"/>
-- As a result of our sentiment analysis, we can conclude that the Federal Reserve announcement has benefited the utilities sector while causing harm to the healthcare sector. The slowing down of interest rate hikes can benefit the utilities sector (XLU) as these companies typically have high levels of debt due to the capital-intensive nature of their business. A slower pace of rate hikes means lower borrowing costs, which can boost their profitability and cash flows. Conversely, the healthcare sector (XLV) may be negatively impacted by the slower pace of rate hikes, as it could lead to higher inflationary pressures that may increase operational costs and erode profit margins for healthcare companies. Additionally, as healthcare is a more cyclical sector, it may be more vulnerable to broader economic fluctuations caused by changes in monetary policy.
+
+### Result of Sentiment Analysis
+- We can conclude that the Federal Reserve announcement has benefited the utilities sector while causing harm to the healthcare sector. The slowing down of interest rate hikes can benefit the utilities sector (XLU) as these companies typically have high levels of debt due to the capital-intensive nature of their business. A slower pace of rate hikes means lower borrowing costs, which can boost their profitability and cash flows. Conversely, the healthcare sector (XLV) may be negatively impacted by the slower pace of rate hikes, as it could lead to higher inflationary pressures that may increase operational costs and erode profit margins for healthcare companies. Additionally, as healthcare is a more cyclical sector, it may be more vulnerable to broader economic fluctuations caused by changes in monetary policy.
+
+### Forecast
+- The utilities sector (XLU) is expected to benefit from the Federal Reserve's decision to slow down the pace of interest rate hikes. This is because utilities companies tend to have high debt levels due to their capital-intensive operations. As a result, we anticipate the utilities sector to show strength in the coming months.
+- On the other hand, the healthcare sector (XLV) may face challenges due to the slowing down of interest rate hikes. The reduced pace of rate hikes could result in higher inflationary pressures, which can increase operational costs and negatively impact profit margins for healthcare companies. Therefore, we predict the healthcare sector to experience increased volatility and potentially underperform in the near term.
+
 
 ## Summary <a name="summary"></a>
 
